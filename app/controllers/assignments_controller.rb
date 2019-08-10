@@ -49,11 +49,4 @@ class AssignmentsController < ApplicationController
       params.require(:assignment).permit(:date, :content, :completed)
     end
 
-    def user_params
-      params.require(:user).permit(:)
-    end
-
-    def assignment_params
-      params.require(:assignment)
-    end 
 end
