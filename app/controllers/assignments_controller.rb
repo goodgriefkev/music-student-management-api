@@ -8,12 +8,14 @@ class AssignmentsController < ApplicationController
     render json: @assignments
   end
 
-  # POST /assignments
+
+  # POST /users/1/assignments
   def create
     @assignment = Assignment.new(assignment_params)
+    @assignment.user_id = params[:user_id]
 
     if @assignment.save
-      render json: @assignment, status: :created, location: @assignment
+      render json: @assignment, status: :created
     else
       render json: @assignment.errors, status: :unprocessable_entity
     end

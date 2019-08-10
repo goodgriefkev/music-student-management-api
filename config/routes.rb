@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :assignments, except: [:show]
+  resources :assignments, except: [:show, :create]
   resources :users do
     collection do
       post '/login', to: 'users#login'
