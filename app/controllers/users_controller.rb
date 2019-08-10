@@ -58,7 +58,7 @@ class UsersController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def user_params
-      params.require(:user).permit(:username, :password, :admin, :instrument, :location, :balance_due)
+      params.require(:user).permit(:username, :password, :instrument, :location, :balance_due)
     end
 
     # Returns a has that will contain JWT payload
