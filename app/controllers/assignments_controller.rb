@@ -8,11 +8,6 @@ class AssignmentsController < ApplicationController
     render json: @assignments
   end
 
-  # GET /assignments/1
-  def show
-    render json: @assignment
-  end
-
   # POST /assignments
   def create
     @assignment = Assignment.new(assignment_params)
