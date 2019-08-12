@@ -1,5 +1,7 @@
 class ApplicationController < ActionController::API
 
+  include ::ActionController::Cookies 
+
   def authenticate_token
     render json: { status: 401, message: 'Unauthorized' } unless decode_token(bearer_token)
   end
