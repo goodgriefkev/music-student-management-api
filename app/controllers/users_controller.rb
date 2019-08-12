@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :update, :destroy]
   before_action :authenticate_token, except: [:login, :create]
-  before_action :authorize_user, except: [:login, :create, :index]
+  before_action :authorize_user, only: [:show]
 
   # GET /users
   def index
@@ -44,6 +44,7 @@ class UsersController < ApplicationController
     user = User.find_by(username: params[:user][:username])
     if user && user.authenticate(params[:user][:password])
       token = create_token(user.id, user.username)
+      cookies.signed[:jwt] = {value: token, httponly: true, expires: 30.minutes.from_now}
       render json: {status: 200, token: token, user: user}
     else
       render json: {status: 401, message: "Unauthorized"}
