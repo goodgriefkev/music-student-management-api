@@ -1,7 +1,5 @@
 class ApplicationController < ActionController::API
 
-  include ::ActionController::Cookies
-
   def authenticate_token
     render json: { status: 401, message: 'Unauthorized' } unless decode_token(bearer_token)
   end
@@ -25,8 +23,7 @@ class ApplicationController < ActionController::API
   end
 
   def authorize_user
-    jwt = cookies.signed[:jwt]
-    decode_jwt(jwt)
+    render json: { status: 401, message: 'Unauthorized'} unless get_current_user.id == params[:id].to_i 
   end
 
 end
