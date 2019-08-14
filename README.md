@@ -1,24 +1,16 @@
-# README
+# Music Student Management Application API  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails API to serve full CRUD React App.  
+Purpose: to allow music teachers to assign and track student's practice assignments, and for students to view practice assignments and mark them complete.
 
-Things you may want to cover:
+# Live Site Link  
+[Stephen Gilbert Musical Instruction]
 
-* Ruby version
+# Unsolved Problems / Known Bugs  
+* most components do not redirect correctly
+* most components do not render with updated data and must be manually refreshed
+* checkboxes associated with practice assignments do not live update, page requires manual refresh
+* if assignment checkboxes are checked/uncheck they will appear in a different order when page is refreshed
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Author  
+Kevin Honnoll for GA SEIR-flex Project Four
