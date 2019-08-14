@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'welcome#index'
   resources :assignments, except: [:show, :create]
   resources :users do
     collection do
