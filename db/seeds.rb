@@ -6,59 +6,59 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-User.create([
-  {
-    username: "pliggot",
-    password: "rodeojones",
-    admin: true,
-    name: "Stephen Gilbert"
-  },
-  {
-    username: "cityofmichael",
-    password: "mike123",
-    admin: false,
-    name: "Mike Lee",
-    instrument: "Drums",
-    location: "Vernon",
-    balance_due: 0
-  },
-  {
-    username: "itsatrizzzap",
-    password: "Ken123",
-    admin: false,
-    name: "Kenny B",
-    instrument: "Drums",
-    location: "Altus",
-    balance_due: 0
-  },
-  {
-    username: "goodgriefkev",
-    password: "kevpass",
-    admin: false,
-    name: "Kevin Bradley",
-    instrument: "Guitar",
-    location: "Quanah",
-    balance_due: 0
-  },
-  {
-    username: "fakedude1",
-    password: "pass",
-    admin: false,
-    name: "Fake Dude 1",
-    instrument: "Piano",
-    location: "Altus",
-    balance_due: 0
-  },
-  {
-    username: "fakedude2",
-    password: "pass",
-    admin: false,
-    name: "Fake Dude 2",
-    instrument: "Bass",
-    location: "Vernon",
-    balance_due: 0
-  }
-])
+# User.create([
+#   {
+#     username: "pliggot",
+#     password: "rodeojones",
+#     admin: true,
+#     name: "Stephen Gilbert"
+#   },
+#   {
+#     username: "cityofmichael",
+#     password: "mike123",
+#     admin: false,
+#     name: "Mike Lee",
+#     instrument: "Drums",
+#     location: "Vernon",
+#     balance_due: 0
+#   },
+#   {
+#     username: "itsatrizzzap",
+#     password: "Ken123",
+#     admin: false,
+#     name: "Kenny B",
+#     instrument: "Drums",
+#     location: "Altus",
+#     balance_due: 0
+#   },
+#   {
+#     username: "goodgriefkev",
+#     password: "kevpass",
+#     admin: false,
+#     name: "Kevin Bradley",
+#     instrument: "Guitar",
+#     location: "Quanah",
+#     balance_due: 0
+#   },
+#   {
+#     username: "fakedude1",
+#     password: "pass",
+#     admin: false,
+#     name: "Fake Dude 1",
+#     instrument: "Piano",
+#     location: "Altus",
+#     balance_due: 0
+#   },
+#   {
+#     username: "fakedude2",
+#     password: "pass",
+#     admin: false,
+#     name: "Fake Dude 2",
+#     instrument: "Bass",
+#     location: "Vernon",
+#     balance_due: 0
+#   }
+# ])
 
 Assignment.create([
   {
