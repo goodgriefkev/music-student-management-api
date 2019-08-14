@@ -60,95 +60,95 @@
 #   }
 # ])
 
-Assignment.create([
-  {
-    date: 20190803,
-    content: "Practice rudiments for 30 minutes every day",
-    completed: false,
-    user_id: 28
-  },
-  {
-    date: 20190803,
-    content: "Practice scales for 20 minutes and chord progressions for 10 minutes every day",
-    completed: false,
-    user_id: 28
-  },
-  {
-    date: 20190803,
-    content: "Practice recital song for 30 minutes every day",
-    completed: true,
-    user_id: 28
-  },
-  {
-    date: 20190803,
-    content: "Practice rudiments for 30 minutes every day",
-    completed: false,
-    user_id: 29
-  },
-  {
-    date: 20190803,
-    content: "Practice scales for 20 minutes and chord progressions for 10 minutes every day",
-    completed: false,
-    user_id: 29
-  },
-  {
-    date: 20190803,
-    content: "Practice recital song for 30 minutes every day",
-    completed: true,
-    user_id: 29
-  },
-  {
-    date: 20190803,
-    content: "Practice rudiments for 30 minutes every day",
-    completed: false,
-    user_id: 30
-  },
-  {
-    date: 20190803,
-    content: "Practice scales for 20 minutes and chord progressions for 10 minutes every day",
-    completed: false,
-    user_id: 30
-  },
-  {
-    date: 20190803,
-    content: "Practice recital song for 30 minutes every day",
-    completed: true,
-    user_id: 30
-  },
-  {
-    date: 20190803,
-    content: "Practice rudiments for 30 minutes every day",
-    completed: false,
-    user_id: 31
-  },
-  {
-    date: 20190803,
-    content: "Practice scales for 20 minutes and chord progressions for 10 minutes every day",
-    completed: false,
-    user_id: 31
-  },
-  {
-    date: 20190803,
-    content: "Practice recital song for 30 minutes every day",
-    completed: true,
-    user_id: 31
-  },
-  {
-    date: 20190803,
-    content: "Practice rudiments for 30 minutes every day",
-    completed: false,
-    user_id: 32
-  },
-  {
-    date: 20190803,
-    content: "Practice scales for 20 minutes and chord progressions for 10 minutes every day",
-    completed: false,
-    user_id: 32
-  },
-  {
-    date: 20190803,
-    content: "Practice recital song for 30 minutes every day",
-    completed: true,
-    user_id: 32
-  }
-])
+# Assignment.create([
+#   {
+#     date: 20190803,
+#     content: "Practice rudiments for 30 minutes every day",
+#     completed: false,
+#     user_id: 28
+#   },
+#   {
+#     date: 20190803,
+#     content: "Practice scales for 20 minutes and chord progressions for 10 minutes every day",
+#     completed: false,
+#     user_id: 28
+#   },
+#   {
+#     date: 20190803,
+#     content: "Practice recital song for 30 minutes every day",
+#     completed: true,
+#     user_id: 28
+#   },
+#   {
+#     date: 20190803,
+#     content: "Practice rudiments for 30 minutes every day",
+#     completed: false,
+#     user_id: 29
+#   },
+#   {
+#     date: 20190803,
+#     content: "Practice scales for 20 minutes and chord progressions for 10 minutes every day",
+#     completed: false,
+#     user_id: 29
+#   },
+#   {
+#     date: 20190803,
+#     content: "Practice recital song for 30 minutes every day",
+#     completed: true,
+#     user_id: 29
+#   },
+#   {
+#     date: 20190803,
+#     content: "Practice rudiments for 30 minutes every day",
+#     completed: false,
+#     user_id: 30
+#   },
+#   {
+#     date: 20190803,
+#     content: "Practice scales for 20 minutes and chord progressions for 10 minutes every day",
+#     completed: false,
+#     user_id: 30
+#   },
+#   {
+#     date: 20190803,
+#     content: "Practice recital song for 30 minutes every day",
+#     completed: true,
+#     user_id: 30
+#   },
+#   {
+#     date: 20190803,
+#     content: "Practice rudiments for 30 minutes every day",
+#     completed: false,
+#     user_id: 31
+#   },
+#   {
+#     date: 20190803,
+#     content: "Practice scales for 20 minutes and chord progressions for 10 minutes every day",
+#     completed: false,
+#     user_id: 31
+#   },
+#   {
+#     date: 20190803,
+#     content: "Practice recital song for 30 minutes every day",
+#     completed: true,
+#     user_id: 31
+#   },
+#   {
+#     date: 20190803,
+#     content: "Practice rudiments for 30 minutes every day",
+#     completed: false,
+#     user_id: 32
+#   },
+#   {
+#     date: 20190803,
+#     content: "Practice scales for 20 minutes and chord progressions for 10 minutes every day",
+#     completed: false,
+#     user_id: 32
+#   },
+#   {
+#     date: 20190803,
+#     content: "Practice recital song for 30 minutes every day",
+#     completed: true,
+#     user_id: 32
+#   }
+# ])
