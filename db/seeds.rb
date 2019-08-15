@@ -65,90 +65,90 @@ Assignment.create([
     date: 20190803,
     content: "Practice rudiments for 30 minutes every day",
     completed: false,
-    user_id: 28
+    user_id: 2
   },
   {
     date: 20190803,
     content: "Practice scales for 20 minutes and chord progressions for 10 minutes every day",
     completed: false,
-    user_id: 28
+    user_id: 2
   },
   {
     date: 20190803,
     content: "Practice recital song for 30 minutes every day",
     completed: true,
-    user_id: 28
+    user_id: 2
   },
   {
     date: 20190803,
     content: "Practice rudiments for 30 minutes every day",
     completed: false,
-    user_id: 29
+    user_id: 3
   },
   {
     date: 20190803,
     content: "Practice scales for 20 minutes and chord progressions for 10 minutes every day",
     completed: false,
-    user_id: 29
+    user_id: 3
   },
   {
     date: 20190803,
     content: "Practice recital song for 30 minutes every day",
     completed: true,
-    user_id: 29
+    user_id: 3
   },
   {
     date: 20190803,
     content: "Practice rudiments for 30 minutes every day",
     completed: false,
-    user_id: 30
+    user_id: 4
   },
   {
     date: 20190803,
     content: "Practice scales for 20 minutes and chord progressions for 10 minutes every day",
     completed: false,
-    user_id: 30
+    user_id: 4
   },
   {
     date: 20190803,
     content: "Practice recital song for 30 minutes every day",
     completed: true,
-    user_id: 30
+    user_id: 4
   },
   {
     date: 20190803,
     content: "Practice rudiments for 30 minutes every day",
     completed: false,
-    user_id: 31
+    user_id: 5
   },
   {
     date: 20190803,
     content: "Practice scales for 20 minutes and chord progressions for 10 minutes every day",
     completed: false,
-    user_id: 31
+    user_id: 5
   },
   {
     date: 20190803,
     content: "Practice recital song for 30 minutes every day",
     completed: true,
-    user_id: 31
+    user_id: 5
   },
   {
     date: 20190803,
     content: "Practice rudiments for 30 minutes every day",
     completed: false,
-    user_id: 32
+    user_id: 6
   },
   {
     date: 20190803,
     content: "Practice scales for 20 minutes and chord progressions for 10 minutes every day",
     completed: false,
-    user_id: 32
+    user_id: 6
   },
   {
     date: 20190803,
     content: "Practice recital song for 30 minutes every day",
     completed: true,
-    user_id: 32
+    user_id: 6
   }
 ])
