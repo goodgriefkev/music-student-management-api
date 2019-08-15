@@ -4,7 +4,7 @@ Ruby on Rails API to serve full CRUD React App.
 Purpose: to allow music teachers to assign and track student's practice assignments, and for students to view practice assignments and mark them complete.
 
 # Live Site Link  
-[Stephen Gilbert Musical Instruction]
+[Stephen Gilbert Musical Instruction](https://goodgriefkev.github.io/music-student-management-react-frontend/)
 
 # Unsolved Problems / Known Bugs  
 * most components do not redirect correctly
