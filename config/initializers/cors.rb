@@ -8,7 +8,7 @@
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
     # origins 'localhost:3001'
-    origins 'goodgriefkev.github.io/music-student-management-react-frontend/'
+    origins 'goodgriefkev.github.io'
 
     resource '*',
       headers: :any,
